@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Persoonlijke begeleiding gedurende het gehele leerproces</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+
+   
+    
+</head>
+<body>
+   <header>
+       <div class="main">
+           <div class="logo">
+               <img src="Images/logo.png">          
+           </div>
+           <ul>
+               <li class="active"><a href="index.html">Home</a></li>             
+               <li><a href="learn%20more.html">Data</a></li> 
+               <li><a href="SQL.html">SQL en Databases</a></li>               
+               <li><a href="bronnen.html">bronnen</a></li>  
+           </ul>               
+       </div>
+        <div class="title">
+           <h1>Persoonlijke begeleiding gedurende het gehele leerproces</h1>
+        </div>
+           
+        <div class="button">
+            <a href="learn%20more.html" class="btn" >LEARN MORE</a>
+        </div>
+       <footer>
+        <p> <b>Luuk Overweel</b> </p>
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+       <script type="text/javascript">
+    function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+        
+    }
+        
+    showTime();
+    
+    </script>
+       </footer>
+    
+   </header> 
+   
+</body> 
+</html>
