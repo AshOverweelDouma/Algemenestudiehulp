@@ -5,13 +5,13 @@
 }
 
 body{
-    background-color: #fff;
+    background-color: #04D4F0;
     
 
 }
 nav{
-    background:#04D4F0;
-    
+    background:#fff;
+    opacity: 0.5;    
     
 }
 ul{
