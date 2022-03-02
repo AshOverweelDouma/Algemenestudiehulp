@@ -5,17 +5,19 @@
 }
 
 body{
-    background-color: #04D4F0;
+    background-image: url(../Images/5.jpg);
     
-
+    
 }
 nav{
-    background-color: #rgba(255,255,255,0.5)   
+    background-color: rgba(255,255,255,.5); 
+    min-height: 70px;
     
 }
 ul{
     float: right;
-    margin-top: 30px;
+    margin-top: 55px;
+    margin-right: 20px;
 }
 
 ul li{
@@ -46,24 +48,25 @@ ul li.active a{
 img{
     width: 150px;
     margin-left: 20px;
+    margin-top: -10px;
 }
 
 .title{
     position: absolute;
-    top: 40%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
 .title h1{
-    color: #000000;
+    color: rgba(255,255,255,.9);
     font-size: 30px;
     
 }
 
 .button{
     position: absolute;
-    top: 62%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -71,9 +74,11 @@ img{
 .btn{
     border: 1px solid #fff;
     padding: 10px 30px;
-    color: #fff;
+    background-color: rgba(255,255,255,.5);
+    color: #000000;
     text-decoration: none;
     transition: 0.3s ease;
+    border-radius: 20px;
 }
 
 .btn:hover{
@@ -81,6 +86,24 @@ img{
     color: #000000;
 }
 
+.bg-text{
+    background-color: rgba(255,255,255,.6);
+    color: #000000;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 30px
+    
+
+}
 footer{
     color: #17D4FE;
     position: absolute;
