@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: url(../Images/5.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/5.jpg);
+    background-repeat: no-repeat;
     
     
 }
@@ -54,14 +55,15 @@ img{
 
 .title{
     position: absolute;
-    top: 80%;
-    left: 50%;
+    top: 30%;
+    left: 35%;
     transform: translate(-50%,-50%);
+    text-align: left;
 }
 
 .title h1{
-    color: rgba(255,255,255,.9);
-    font-size: 30px;
+    color: #fff;
+    font-size: 40px;
     
 }
 
@@ -89,7 +91,7 @@ img{
 }
 
 .bg-text{
-    background-color: rgba(255,255,255,.6);
+    background-color: #fff;
     color: #000000;
     font-weight: bold;
     border: 3px solid #f1f1f1;
@@ -98,11 +100,12 @@ img{
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 2;
+    position: absolute;
     width: 80%;
-    padding: 20px;
+    height: 500px;
+    padding: 50px;
     text-align: center;
     font-size: 25px;
-    border-radius: 30px
     
 
 }
@@ -110,7 +113,7 @@ footer{
     color: #17D4FE;
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%,-50%);
     font-size: 20px;
     letter-spacing: 7px;
